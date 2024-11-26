@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomePageView from "@/views/HomePageView.vue";
 import FindBankView from "@/views/FindBankView.vue";
 import ProfileView from "@/views/ProfileView.vue";
-import LoginModal from "@/components/LoginModal.vue";
+import LogInModal from "@/components/LogInModal.vue";
 import RecommendationView from "@/views/RecommendationView.vue";
 import CurrencyExchangeView from "@/views/CurrencyExchangeView.vue";
 import CommunityView from "@/views/CommunityView.vue";
@@ -36,8 +36,8 @@ const routes = [
   },
   {
     path: "/login",
-    name: "login",
-    component: LoginModal,
+    name: "logIn",
+    component: LogInModal,
   },
   {
     path: "/recommendation",
